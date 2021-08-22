@@ -46,9 +46,7 @@ server.delete('/api/persons/:id', (req, res) => {
 })
 
 server.post('/api/persons', (req, res) => {
-    console.log("JAHAS")
     const body = req.body
-    console.log("BODY", body)
     if(!body?.name) {
         return res.status(400).json({error: "Did not contain name of person"})
     }
@@ -61,8 +59,6 @@ server.post('/api/persons', (req, res) => {
         name: body.name,
         number: body.number
     }
-    list.push(entry)
-    console.log("LIST", list)
     res.json(entry)
 })
 
