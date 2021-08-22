@@ -1,0 +1,22 @@
+POST http://localhost:3001/api/persons 
+content-type: application/json
+
+{
+    "content": "VS Code REST Client", "important": false
+
+}
+###
+POST http://localhost:3001/api/persons 
+content-type: application/json
+
+{
+    "name": "moppi"
+}
+###
+POST http://localhost:3001/api/persons 
+content-type: application/json
+
+{
+    "name": "moppi",
+    "number": "0123123"
+}

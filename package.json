@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-2021-pt3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samniem/fullstack-2021-pt3.git"
+  },
+  "author": "samniem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samniem/fullstack-2021-pt3/issues"
+  },
+  "homepage": "https://github.com/samniem/fullstack-2021-pt3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
